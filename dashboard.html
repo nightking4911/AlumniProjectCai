@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Alumni Network</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Alumni Network</h1>
+      <nav>
+        <ul>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="messages.html">Messages</a></li>
+          <li><a href="opportunities.html">Opportunities</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="logout.html">Logout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="dashboard">
+    <div class="container">
+      <h2>Welcome Back, [User Name]!</h2>
+      <div class="dashboard-grid">
+        <!-- Private Messages -->
+        <div class="dashboard-item">
+          <i class="fas fa-envelope fa-3x"></i>
+          <h3>Private Messages</h3>
+          <p>Send and receive private messages with alumni.</p>
+          <a href="messages.html" class="btn">Go to Messages</a>
+        </div>
+
+        <!-- Group Messages -->
+        <div class="dashboard-item">
+          <i class="fas fa-users fa-3x"></i>
+          <h3>Group Messages</h3>
+          <p>Chat with groups of alumni based on interests or batches.</p>
+          <a href="group-messages.html" class="btn">Go to Groups</a>
+        </div>
+
+        <!-- Job Postings -->
+        <div class="dashboard-item">
+          <i class="fas fa-briefcase fa-3x"></i>
+          <h3>Job Postings</h3>
+          <p>Explore job opportunities shared by alumni.</p>
+          <a href="opportunities.html" class="btn">View Jobs</a>
+        </div>
+
+        <!-- College Meetups -->
+        <div class="dashboard-item">
+          <i class="fas fa-calendar-alt fa-3x"></i>
+          <h3>College Meetups</h3>
+          <p>Join meetups and reunions organized by your college.</p>
+          <a href="meetups.html" class="btn">View Meetups</a>
+        </div>
+
+        <!-- Alumni Events -->
+        <div class="dashboard-item">
+          <i class="fas fa-calendar-check fa-3x"></i>
+          <h3>Alumni Events</h3>
+          <p>Participate in alumni-organized events and webinars.</p>
+          <a href="events.html" class="btn">View Events</a>
+        </div>
+
+        <!-- Birthdays -->
+        <div class="dashboard-item">
+          <i class="fas fa-birthday-cake fa-3x"></i>
+          <h3>Birthdays</h3>
+          <p>Celebrate alumni birthdays and send wishes.</p>
+          <a href="birthdays.html" class="btn">View Birthdays</a>
+        </div>
+
+        <!-- Friendship Connections -->
+        <div class="dashboard-item">
+          <i class="fas fa-handshake fa-3x"></i>
+          <h3>Friendship Connections</h3>
+          <p>Connect with alumni and build lifelong friendships.</p>
+          <a href="friendship.html" class="btn">Connect Now</a>
+        </div>
+
+        <button id="logoutButton" class="btn">Logout</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 CAI Alumni Network. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
